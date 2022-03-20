@@ -117,6 +117,10 @@ config NETDUINOPLUS2
     bool
     select STM32F405_SOC
 
+config STM32F407_VET6 
+    bool
+    select STM32F405_SOC
+
 config NSERIES
     bool
     select OMAP
